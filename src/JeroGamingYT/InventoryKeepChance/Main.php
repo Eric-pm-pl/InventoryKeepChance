@@ -26,7 +26,10 @@ use pocketmine\utils\Config;
 use pocketmine\player\Player;
 
 class Main extends PluginBase
-{
+{	
+	/**@Var Config $config*/
+	public Config $config; 
+	
 	public function onEnable(): void 
 	{
 		$this->getServer()->getPluginManager()->registerEvents(new EventListener($this), $this);
