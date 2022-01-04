@@ -1,0 +1,16 @@
+name: InventoryKeepChance
+version: 0.0.1
+api: 
+  - 4.0.0
+main: JeroGamingYT\InventoryKeepChance\Main
+author: JeroGamingYT
+
+commands:
+  ikc:
+    permission: inventorykeepchance.perm
+    description: "Chỉnh tỉ lệ được keepinv"
+
+permissions:
+  inventorykeepchance.perm:
+    description: "Chỉnh tỉ lệ được keepinv"
+    default: op
