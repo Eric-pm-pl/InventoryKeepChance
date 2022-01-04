@@ -24,6 +24,9 @@ use pocketmine\event\player\PlayerDeathEvent;
 
 class EventListener implements Listener
 {
+	/**@Var Main plugin*/
+	public Main $plugin;
+	
 	public function __construct(Main $plugin)
 	{
 		$this->plugin = $plugin;
