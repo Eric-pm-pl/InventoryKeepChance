@@ -49,5 +49,5 @@ message:
 
 | Plugin Version | Pocketmine API | PHP Version | Plugin Status |
 |---|---|---|---|
-| 0.0.1 | 4.x.x | 8.0 | Completed |
+| 0.0.2 | 4.x.x | 8.0 | Completed |
  

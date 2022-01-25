@@ -35,7 +35,13 @@ class Main extends PluginBase
 		$this->getServer()->getPluginManager()->registerEvents(new EventListener($this), $this);
 		$this->saveResource("config.yml");
 		$this->config = new Config($this->getDataFolder()."config.yml", Config::YAML);
+		$this->checkUpdate();
 	}
+	
+	public function checkUpdate(bool $isRetry = false): void 
+    {
+        $this->getServer()->getAsyncPool()->submitTask(new CheckUpdateTask($this->getDescription()->getName(), $this->getDescription()->getVersion()));
+    }
 
 	public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool
 	{
