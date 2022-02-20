@@ -44,10 +44,3 @@ message:
 | :------: | :----------------: |
 | Discord  | Jero Gaming#6805        |
 | Email    | JeroGamingYT@pm.me       |
-
-## Project Infomation
-
-| Plugin Version | Pocketmine API | PHP Version | Plugin Status |
-|---|---|---|---|
-| 0.0.2 | 4.x.x | 8.0 | Completed |
- 
