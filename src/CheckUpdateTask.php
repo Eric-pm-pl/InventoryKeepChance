@@ -1,14 +1,14 @@
 <?php
 
 /**
- * Copyright (c) 2021 JeroGamingYT
- * NoAdvertisings is licensed under the GNU Lesser General Public License v3.0
- * GitHub: https://github.com/JeroGamingYT/NoAdvertisings
+ * Copyright (c) 2021 David
+ * InventoryKeepChance is licensed under the GNU Lesser General Public License v3.0
+ * GitHub: https://github.com/David/InventoryKeepChance
  */
 
 declare(strict_types=1);
 
-namespace JeroGamingYT\InventoryKeepChance;
+namespace davidglitch04\InventoryKeepChance;
 
 use pocketmine\scheduler\AsyncTask;
 use pocketmine\Server;

@@ -2,7 +2,7 @@
 
 /*
  * InventoryKeepChance plugin for PocketMine-MP
- * Copyright (C) 2022 JeroGamingYT-pm-pl <https://github.com/JeroGamingYT-pm-pl/InventoryKeepChance>
+ * Copyright (C) 2022 David-pm-pl <https://github.com/David-pm-pl/InventoryKeepChance>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
@@ -17,13 +17,14 @@
 
 declare(strict_types=1);
 
-namespace JeroGamingYT\InventoryKeepChance;
+namespace davidglitch04\InventoryKeepChance;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\utils\Config;
 use pocketmine\player\Player;
+use pocketmine\utils\TextFormat;
 
 class Main extends PluginBase
 {	
@@ -109,6 +110,6 @@ class Main extends PluginBase
     public function getMessage(string $msg)
     {
     	$msg = $this->config->getNested($msg);
-    	return str_replace("&", "§", (string) $msg);
+    	return TextFormat::colorize($msg);
     }
 }

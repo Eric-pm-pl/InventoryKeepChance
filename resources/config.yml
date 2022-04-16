@@ -8,6 +8,18 @@
 prefix: "&eKeepChance >> "
 chance: 50 #Chance KeepInventory
 
+# all : Prevents players from losing items on death in all worlds
+# whitelist : Prevents players from losing items on death in worlds listed below
+# blacklist : Prevents players from losing items on death in all worlds that are not listed below
+mode: all
+worlds: []
+# - World
+# - Second
+
+msg-after-dealth: "Items in your inventory have been kept"
+
+msg-type: message
+
 # Messages
 message:
   useingame: "&cPlease use this command in game!"

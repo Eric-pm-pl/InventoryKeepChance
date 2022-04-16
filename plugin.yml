@@ -1,16 +1,16 @@
 name: InventoryKeepChance
-version: 0.0.2
-api: 
-  - 4.0.0
-main: JeroGamingYT\InventoryKeepChance\Main
-author: JeroGamingYT
+version: 0.0.3
+api: 4.0.0
+main: davidglitch04\InventoryKeepChance\Main
+src-namespace-prefix: davidglitch04\InventoryKeepChance
+author: DavidGlitch04
 
 commands:
   ikc:
     permission: inventorykeepchance.perm
-    description: "Chỉnh tỉ lệ được keepinv"
+    description: "Edit inventory retention chance"
 
 permissions:
   inventorykeepchance.perm:
-    description: "Chỉnh tỉ lệ được keepinv"
+    description: "Edit inventory retention chance"
     default: op
