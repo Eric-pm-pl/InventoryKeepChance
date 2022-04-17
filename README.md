@@ -9,7 +9,7 @@
 - Protect member's account
 - Easy to set up
  
-## All LoginAuth Commands:
+## All IKC Commands:
 
 | **Command** | **Description** |
 | --- | --- |
