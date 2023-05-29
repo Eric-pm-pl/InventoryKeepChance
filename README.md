@@ -1,5 +1,5 @@
 [![](https://poggit.pmmp.io/shield.state/InventoryKeepChance)]
-[![Discord](https://img.shields.io/discord/942248186670641202.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/34PC5u9W)
+[![Discord](https://img.shields.io/discord/1100650029573738508.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/yAhsgskaGy)
 <div align="center">
 <h1>InventoryKeepChance | v0.0.3<h1>
 <p>Chance of keeping inventory when player dies</p>
