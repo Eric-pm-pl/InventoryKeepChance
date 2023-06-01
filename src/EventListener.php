@@ -25,7 +25,7 @@ use pocketmine\player\Player;
 
 class EventListener implements Listener
 {
-	/**@Var Main plugin*/
+	/** @var Main plugin */
 	public Main $plugin;
 	
 	public function __construct(Main $plugin)
@@ -41,7 +41,7 @@ class EventListener implements Listener
 	 * @param  Player $player
 	 * @return void
 	 */
-	public function sendMessage(Player $player): void{
+	public function sendMessage(Player $player): void {
 		$message = $this->getMain()->getConfig()->get("msg-after-dealth");
 		switch ($this->getMain()->getConfig()->get("msg-type")) {
 			case "message":

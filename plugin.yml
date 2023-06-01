@@ -1,6 +1,6 @@
 name: InventoryKeepChance
-version: 0.0.3
-api: 4.0.0
+version: 0.0.4
+api: 5.0.0
 main: davidglitch04\InventoryKeepChance\Main
 src-namespace-prefix: davidglitch04\InventoryKeepChance
 author: DavidGlitch04
